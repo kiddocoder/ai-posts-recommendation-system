@@ -37,9 +37,9 @@ Thumbs.db
 
 # TypeScript compiled output
 dist/
-*.js
-*.js.map
-*.d.ts
+# *.js
+# *.js.map
+# *.d.ts
 
 # But keep JavaScript configuration files
 !jest.config.js
