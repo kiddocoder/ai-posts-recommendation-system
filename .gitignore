@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# TypeScript build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TensorFlow.js model files (these can be large)
+models/
+
+# Logs
+logs/
+*.log
+
+# Redis dump file
+dump.rdb
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript compiled output
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# But keep JavaScript configuration files
+!jest.config.js
+!.eslintrc.js
+!*.config.js
