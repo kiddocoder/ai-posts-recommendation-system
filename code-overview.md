@@ -1,0 +1,40 @@
+/\*\*
+
+- Football Blog & Betting Tips - AI Recommendation System
+- ======================================================
+-
+- Project Structure:
+-
+- recommender/
+- ├── src/
+- │ ├── api/ # API endpoints
+- │ │ ├── routes.js # Route definitions
+- │ │ └── recommender.js # Main recommendation endpoints
+- │ ├── models/ # ML models
+- │ │ ├── userembedding.js # User embedding model
+- │ │ ├── contentembedding.js # Content embedding model
+- │ │ └── rankingmodel.js # Final ranking model
+- │ ├── data/ # Data processing
+- │ │ ├── preprocessing.js # Data cleaning and preparation
+- │ │ ├── featureengineering.js # Feature creation from raw data
+- │ │ └── dataloader.js # Data loading from PostgreSQL
+- │ ├── training/ # Model training
+- │ │ ├── trainer.js # Training coordination
+- │ │ └── scheduledtraining.js # Scheduled background training
+- │ ├── utils/ # Utilities
+- │ │ ├── cache.js # Redis caching layer
+- │ │ ├── metrics.js # Performance tracking
+- │ │ └── logger.js # Logging
+- │ └── index.js # Service entry point
+- ├── config/ # Configuration files
+- │ ├── database.js # DB connection settings
+- │ ├── model.js # Model parameters
+- │ └── server.js # Server settings
+- ├── scripts/
+- │ ├── train.js # Manual training trigger
+- │ └── evaluate.js # Evaluation script
+- ├── tests/ # Tests
+- ├── Dockerfile # Container definition
+- ├── docker-compose.yml # Service orchestration
+- └── package.json # Dependencies
+  \*/
